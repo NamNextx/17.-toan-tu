@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toan_tu</title>
+</head>
+<body>
+        <!--
+            if ( (a + b) < 4) {
+                result = 'Below';
+            }
+            else {
+                esult = 'Over';
+                }
+        -->
+        <script>
+            var a=parseInt(prompt("Pls input a:",));
+            var b=parseInt(prompt("Pls input b:",));
+            result= (a+b<4)? alert("Below"): alert("Over");
+        </script>
+        <!--
+            Bài 2: Viết chương trình nhập vào giá trị cho chuỗi message.
+
+                Nếu giá trị nhập vào là Employee thì hiển thị chuỗi Hello.
+
+                Còn lại nếu giá trị nhập vào là Director thì hiển thị chuỗi Greetings
+
+                Còn lại nếu giá trị nhập vào chuỗi rỗng thì hiển thị No login
+
+                Còn lại hiển thị chuỗi rỗng
+        -->
+        <script>
+            var message=prompt("Moi ban nhap vao chuoi");
+            result= (message=="Employee")? alert("Hello"): (message == "Director")? alert("Greetings"): isNaN(message) == "" ? alert("No login"): alert("");
+        </script>
+</body>
+</html>
